@@ -1,107 +1,100 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from 'react'
+import { CgWorkAlt } from 'react-icons/cg'
+import { FaReact } from 'react-icons/fa'
+import { LuGraduationCap } from 'react-icons/lu'
+import nexchat from '@/public/nexchat.png'
+import blogImage from '@/public/blog-website.png'
+import portfolio from '@/public/portfolio.png'
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: 'Home',
+    hash: '#home',
   },
   {
-    name: "About",
-    hash: "#about",
+    name: 'About',
+    hash: '#about',
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: 'Projects',
+    hash: '#projects',
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: 'Skills',
+    hash: '#skills',
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: 'Experience',
+    hash: '#experience',
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: 'Contact',
+    hash: '#contact',
   },
-] as const;
+] as const
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: 'Graduated ABV IIITM Gwalior',
+    location: 'Gwalior, India',
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      'I graduated after 4 years of studying B Tech Computer Science',
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: '2020 to 2024',
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: 'Full Stack Web Developer',
+    location: 'Remote',
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      'I worked as a backend and some frontend part I also upskilled to the full stack.',
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: 'Jan-2023 to Aug-2023',
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
+] as const
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: 'NexChat',
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      'Built a chat application through which users can communicate and make friends in real time',
+    tags: ['React', 'Next.js', 'Upstash', 'Tailwind', 'Redis'],
+    imageUrl: nexchat,
+    link: 'https://github.com/shubham-2909/Chat-App',
   },
   {
-    title: "rmtDev",
+    title: 'Personal Blog website',
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      'A personal blogging website which reads markdown files into blogs and i write blogs on this website sometimes.',
+    tags: ['React', 'Next.js'],
+    imageUrl: blogImage,
+    link: 'https://github.com/shubham-2909/my-blog-app',
   },
   {
-    title: "Word Analytics",
+    title: 'Portfolio',
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      'A public web app which displays my current work and what am i doing currently.',
+    tags: ['React', 'Next.js', 'Tailwind', 'Framer'],
+    imageUrl: portfolio,
+    link: 'https://github.com/shubham-2909/my-portfolio',
   },
-] as const;
+] as const
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
-] as const;
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Next.js',
+  'Node.js',
+  'Git',
+  'Tailwind',
+  'Prisma',
+  'MongoDB',
+  'Redux',
+  'Express',
+  'PostgreSQL',
+  'Python',
+  'Golang',
+  'Docker',
+] as const
