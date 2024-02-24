@@ -35,6 +35,7 @@ export default function Experience() {
                   theme === "light"
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
+                
               }}
               date={item.date}
               icon={item.icon}

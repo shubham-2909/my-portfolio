@@ -31,29 +31,16 @@ export default function Intro() {
             }}
           >
             <Image
-              src='/ShubhamDp.jpg'
+              src='/ShubhamDp.png'
               alt='Shubham Image'
               width='192'
               height='192'
               quality='95'
               priority={true}
-              className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
+              className='h-40 w-40 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
             />
           </motion.div>
 
-          <motion.span
-            className='absolute bottom-0 right-0 text-4xl'
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: 'spring',
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
 
@@ -90,7 +77,7 @@ export default function Intro() {
 
         <a
           className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
-          href='https://drive.google.com/file/d/1cwxLHE606PPKU_iU_MCyqflakGQeO3LW/view?pli=1'
+          href='https://drive.google.com/file/d/1D6_oMPwDN0yFhHe5B10HaDEZxq149vHz/view?usp=sharing'
           target='_blank'
         >
           Download CV{' '}

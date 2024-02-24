@@ -3,7 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
 import { LuGraduationCap } from 'react-icons/lu'
 import nexchat from '@/public/nexchat.png'
-import blogImage from '@/public/blog-website.png'
+import multiImage from '@/public/multi-docker.png'
 import portfolio from '@/public/portfolio.png'
 
 export const links = [
@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated ABV IIITM Gwalior',
-    location: 'Gwalior, India',
+    title: 'Full Stack Web Developer',
+    location: 'Remote',
     description:
-      'I graduated after 4 years of studying B Tech Computer Science',
+      'I worked mainly in Backend part and some frontend part using Reactjs. I upskilled myself and learnt advance SQL Queries.',
     icon: React.createElement(LuGraduationCap),
-    date: '2020 to 2024',
+    date: 'Oct-2023 to Present',
   },
   {
     title: 'Full Stack Web Developer',
@@ -62,12 +62,12 @@ export const projectsData = [
     link: 'https://github.com/shubham-2909/Chat-App',
   },
   {
-    title: 'Personal Blog website',
+    title: 'Multi Container App',
     description:
-      'A personal blogging website which reads markdown files into blogs and i write blogs on this website sometimes.',
-    tags: ['React', 'Next.js'],
-    imageUrl: blogImage,
-    link: 'https://github.com/shubham-2909/my-blog-app',
+      'A Fibonacci Calculator website.Implemented a CI/CD Pipeline which watches for commits over main branch and publishes all docker images to Docker hub repos',
+    tags: ['React', 'PostgreSQL', 'Docker', 'NodeJS', 'Redis', 'Github actions'],
+    imageUrl: multiImage,
+    link: 'https://github.com/shubham-2909/multi-docker',
   },
   {
     title: 'Portfolio',
@@ -97,4 +97,9 @@ export const skillsData = [
   'Python',
   'Golang',
   'Docker',
+  'Kubernetes',
+  'MySQL',
+  'tRPC',
+  'Jenkins',
+  'Github actions'
 ] as const
